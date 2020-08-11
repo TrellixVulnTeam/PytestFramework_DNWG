@@ -1,0 +1,87 @@
+{
+  "uid" : "a445fcb15906e9eb",
+  "name" : "Go to test Check Box Demo page",
+  "historyId" : "cecb92855125a2d1e370043130275a92",
+  "time" : {
+    "start" : 1594985802185,
+    "stop" : 1594985805676,
+    "duration" : 3491
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/home/qainfotech/PycharmProjects/PytestProject/venv/lib/python3.6/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/venv/lib/python3.6/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"BDD/feature/steps/stepFile_test2.py\", line 12, in step_impl\n    Test2.test_multiple_check_box(context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/tests/test_file2.py\", line 29, in test_multiple_check_box\n    assert \"Check All\" == self.driver.find_element_by_id(\"check1\").get_attribute('value')\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/home/qainfotech/PycharmProjects/PytestProject/venv/lib/python3.6/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/venv/lib/python3.6/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"BDD/feature/steps/stepFile_test2.py\", line 12, in step_impl\n    Test2.test_multiple_check_box(context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/tests/test_file2.py\", line 29, in test_multiple_check_box\n    assert \"Check All\" == self.driver.find_element_by_id(\"check1\").get_attribute('value')\n",
+    "steps" : [ {
+      "name" : "Given User is on Check demo page and verify check box is display and working",
+      "time" : {
+        "start" : 1594985802186,
+        "stop" : 1594985805526,
+        "duration" : 3340
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Verify multiple check box",
+      "time" : {
+        "start" : 1594985805526,
+        "stop" : 1594985805675,
+        "duration" : 149
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/home/qainfotech/PycharmProjects/PytestProject/venv/lib/python3.6/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/venv/lib/python3.6/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"BDD/feature/steps/stepFile_test2.py\", line 12, in step_impl\n    Test2.test_multiple_check_box(context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/tests/test_file2.py\", line 29, in test_multiple_check_box\n    assert \"Check All\" == self.driver.find_element_by_id(\"check1\").get_attribute('value')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "validate check box button"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a445fcb15906e9eb.json",
+  "parameterValues" : [ ]
+}

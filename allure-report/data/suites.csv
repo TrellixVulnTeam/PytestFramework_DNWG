@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 11 11:14:23 IST 2020","Tue Aug 11 11:14:26 IST 2020","2438","","","","","","Go to Home Page",""
+"failed","Tue Aug 11 11:14:28 IST 2020","Tue Aug 11 11:14:30 IST 2020","1753","","","","","","Go to test Check Box Demo page",""
+"passed","Tue Aug 11 11:14:26 IST 2020","Tue Aug 11 11:14:28 IST 2020","2369","","","","","","Validate simple demo page",""

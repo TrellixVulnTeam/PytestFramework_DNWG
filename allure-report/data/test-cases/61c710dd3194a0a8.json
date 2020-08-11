@@ -1,0 +1,107 @@
+{
+  "uid" : "61c710dd3194a0a8",
+  "name" : "Validate simple demo page",
+  "historyId" : "687a022a96e2c02a6ff7a1a9f590b247",
+  "time" : {
+    "start" : 1597124666080,
+    "stop" : 1597124668449,
+    "duration" : 2369
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When Validate if get input form is working",
+      "time" : {
+        "start" : 1597124666081,
+        "stop" : 1597124668184,
+        "duration" : 2103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Validate if get input total form is working",
+      "time" : {
+        "start" : 1597124668184,
+        "stop" : 1597124668449,
+        "duration" : 265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Home Page"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1fb5107645ba3dec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597053436930,
+        "stop" : 1597053439383,
+        "duration" : 2453
+      }
+    }, {
+      "uid" : "236b831cd826e8bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597053241303,
+        "stop" : 1597053244077,
+        "duration" : 2774
+      }
+    }, {
+      "uid" : "38aa0a06b26eacee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594985799449,
+        "stop" : 1594985802184,
+        "duration" : 2735
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61c710dd3194a0a8.json",
+  "parameterValues" : [ ]
+}

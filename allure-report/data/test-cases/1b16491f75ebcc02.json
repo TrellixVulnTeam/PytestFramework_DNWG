@@ -1,0 +1,120 @@
+{
+  "uid" : "1b16491f75ebcc02",
+  "name" : "Go to test Check Box Demo page",
+  "historyId" : "cecb92855125a2d1e370043130275a92",
+  "time" : {
+    "start" : 1597124668450,
+    "stop" : 1597124670203,
+    "duration" : 1753
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/home/qainfotech/PycharmProjects/APItesting/venv/lib/python3.6/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/home/qainfotech/PycharmProjects/APItesting/venv/lib/python3.6/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"BDD/feature/steps/stepFile_test2.py\", line 12, in step_impl\n    Test2.test_multiple_check_box(context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/tests/test_file2.py\", line 29, in test_multiple_check_box\n    assert \"Check All\" == self.driver.find_element_by_id(\"check1\").get_attribute('value')\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/home/qainfotech/PycharmProjects/APItesting/venv/lib/python3.6/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/home/qainfotech/PycharmProjects/APItesting/venv/lib/python3.6/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"BDD/feature/steps/stepFile_test2.py\", line 12, in step_impl\n    Test2.test_multiple_check_box(context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/tests/test_file2.py\", line 29, in test_multiple_check_box\n    assert \"Check All\" == self.driver.find_element_by_id(\"check1\").get_attribute('value')\n",
+    "steps" : [ {
+      "name" : "Given User is on Check demo page and verify check box is display and working",
+      "time" : {
+        "start" : 1597124668452,
+        "stop" : 1597124670047,
+        "duration" : 1595
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Verify multiple check box",
+      "time" : {
+        "start" : 1597124670047,
+        "stop" : 1597124670203,
+        "duration" : 156
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/home/qainfotech/PycharmProjects/APItesting/venv/lib/python3.6/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/home/qainfotech/PycharmProjects/APItesting/venv/lib/python3.6/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"BDD/feature/steps/stepFile_test2.py\", line 12, in step_impl\n    Test2.test_multiple_check_box(context)\n  File \"/home/qainfotech/PycharmProjects/PytestProject/tests/test_file2.py\", line 29, in test_multiple_check_box\n    assert \"Check All\" == self.driver.find_element_by_id(\"check1\").get_attribute('value')\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "validate check box button"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8bbdc862fe5d788f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1597053439385,
+        "stop" : 1597053441354,
+        "duration" : 1969
+      }
+    }, {
+      "uid" : "4fed7e445a16846",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1597053244078,
+        "stop" : 1597053245977,
+        "duration" : 1899
+      }
+    }, {
+      "uid" : "a445fcb15906e9eb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError\n",
+      "time" : {
+        "start" : 1594985802185,
+        "stop" : 1594985805676,
+        "duration" : 3491
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1b16491f75ebcc02.json",
+  "parameterValues" : [ ]
+}

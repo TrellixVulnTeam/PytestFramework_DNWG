@@ -1,0 +1,44 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Go to Home Page",
+    "uid" : "b9b4d99542f4017",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597124663641,
+      "stop" : 1597124666079,
+      "duration" : 2438
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate simple demo page",
+    "uid" : "61c710dd3194a0a8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1597124666080,
+      "stop" : 1597124668449,
+      "duration" : 2369
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Go to test Check Box Demo page",
+    "uid" : "1b16491f75ebcc02",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "failed",
+    "time" : {
+      "start" : 1597124668450,
+      "stop" : 1597124670203,
+      "duration" : 1753
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
